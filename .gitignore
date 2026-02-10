@@ -217,3 +217,5 @@ data_access.py
 .venv/
 
 .DS_Store
+
+.idea/
