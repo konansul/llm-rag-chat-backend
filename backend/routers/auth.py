@@ -5,7 +5,7 @@ from starlette import status
 
 from backend.database.db import get_db
 from backend.database.models import User
-from backend.schemas import UserCreate, LoginRequest, LoginResponseToken, CurrentUser, LogoutResponse
+from backend.database.schemas import UserCreate, LoginRequest, LoginResponseToken, CurrentUser, LogoutResponse
 from backend.database.security import hash_password, verify_password, create_access_token, get_current_user
 
 router = APIRouter()

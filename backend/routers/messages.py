@@ -3,7 +3,7 @@ from typing import List
 from sqlalchemy.orm import Session
 
 from backend.database.models import Messages, Chats
-from backend.schemas import MessageOut, MessageCreate
+from backend.database.schemas import MessageOut, MessageCreate
 from backend.database.db import get_db
 
 router = APIRouter()
